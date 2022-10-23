@@ -7,34 +7,106 @@
 	<meta name="desiption" content="Этот сайт мой!">
 	<title>Тренька</title>
 	<link rel="shortcut icon" href="https://st2.depositphotos.com/1791505/8561/i/600/depositphotos_85617820-stock-photo-atom-particle.jpg">
-	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
+<p>Прописка стиля внутри тега при помощи атрибутов.</p><br>
+<p>Прописка стиля через тег style.</p>
+<p class="text">Прописка стиля через тег style.</p>
+<p id="test">Каждому элементу может быть присвоен id, который должен быть уникален и использоваться на странице только один раз: &lt;p id="test"&gt; может быть присвоен только одному элементу на странице, тогда для другого может быть использован id="test2" </p>
+<p class="text">Прописка стиля через тег style.</p>
 
-<form action="action_page.php">
-  <div class="imgcontainer">
-    <img src="orange.jpg" alt="Avatar" class="avatar">
-  </div>
+<p>Прописка стиля через тег style.</p>
 
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+<ol>
+	<li>Нумерованный список через тэг &lt;ol&gt;</li>
+	<li>dd</li>
+	<li>ss</li>
+	<li>gg</li>
+	<li>hj</li>
+	<li>eee</li>
+</ol>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+<ul>
+	<li>Маркированный список через тэг &lt;ul&gt;</li>
+	<li>fbdf</li>
+	<li>,k;</li>
+	<li>sdf hnvs</li>
+	<li>rnil.u</li>
+	<li>dfsrtl;pk</li>
+</ul>
 
-    <button type="submit" class="submitbtn">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
+<table border="1">
+	<thead>
+		<tr>
+			<th>Наименование</th>
+			<th>Изображение</th>
+			<th>Количество</th>
+		</tr>
+	</thead>	
+	<tbody>
+		<tr>
+			<td>Apple</td>
+			<th><img src="Apple.jpg" alt="Apple" width="150"></th>
+			<td>5</td>
+		</tr>
+				<tr>
+			<td>Orange</td>
+			<th><img src="orange.jpg" alt="Orange" width="150"></th>
+			<td>3</td>
+		</tr>
+				<tr>
+			<td>Lime</td>
+			<th><img src="lime.jpg" alt="Lime" width="150"></th>
+			<td>10</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="2">Total: 18</td> <!-- colspan - объединяет ячейки-->
+		</tr>
+	</tfoot>
+</table>
+<br>
+<img src="https://static.educalingo.com/img/uk/800/nebo.jpg" alt="Sky" width="150">
+<br>
+<br>
+<label for="fname">First Name:</label>
+<input type="text" name="FirstName"><br><br>
+<label for="lname">Last Name:</label>
+<input type="text" name="LastName">
+<input type="submit" name="submit" value="Submit"><br><br><br>
+<form>
+	<input type="radio" name="language" value="HTML">HTML<br>
+	<input type="radio" name="language" value="CSS">CSS<br>
+	<input type="radio" name="language" value="JS">JS<br>
+	<input type="submit" value="Submit"><br>
+	<input type="reset" value="Сбросить">
 </form>
+<br><br><br>
+<form>
+	<input type="checkbox" name="language" value="HTML">HTML<br>
+	<input type="checkbox" name="language" value="CSS">CSS<br>
+	<input type="checkbox" name="language" value="JS">JS<br>
+	<input type="submit" value="Submit"><br>
+	<input type="reset" value="Сбросить">
+</form>
+<br>
+<input type="button" onclick="alert('Hello world!')" value="Click me">
+<br>
+<br>
+<form>
+	<label for="birthday">Birthday</label>
+	<input type="date" id="birthday" name="birthday">
+</form>
+<br><br>
+<form>
+	<label for="email">Email</label>
+	<input type="email" id="email" name="email">
+</form>
+<br><br>
+
 
 
 </body>

@@ -1,0 +1,15 @@
+p {
+	background-color: yellow;
+	color: red;
+	width: 250px;
+}
+
+#test {
+	background-color: blue;
+	color: greenyellow;
+}
+
+.text {
+	background-color: beige;
+	border: 1px solid navajowhite;
+}
